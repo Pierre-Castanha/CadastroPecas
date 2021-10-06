@@ -1,7 +1,21 @@
-// Inicio da Programação através do JavaScript
-// Sistema de Cadastro de Peças
-// Aula On line - 05.10.2021 - Senai
-// Instrutores: Thiago Nascimento && Ordilei Sabella 
+     ///////////////////////////////////////////////////////
+     // Inicio da Programação através do JavaScript       //
+     // Sistema de Cadastro de Peças                      //
+     // Aula On line - 05.10.2021 - Senai                 //
+     // Instrutores: Thiago Nascimento && Ordilei Sabella //
+     ///////////////////////////////////////////////////////
+
+
+//////////////////// R E Q U I S I T O S ///////////////////////////
+//                                                                //
+// 1. Peça pode ser cdastrada caso o peso seja maior que 100g;    //
+//                                                                //
+// 2. Lista de peças tem capacidade máxima de 10 peças;           //
+//                                                                //
+// 3. A peça deve ter um nome maior que 3 caracteres, senão erro. //
+//                                                                //
+////////////////////////////////////////////////////////////////////
+
 
 let peso = 100; // cria a variável "peso" e define o valor
 
