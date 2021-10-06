@@ -1,7 +1,7 @@
      ///////////////////////////////////////////////////////
-     // Inicio da Programação através do JavaScript       //
-     // Sistema de Cadastro de Peças                      //
-     // Aula On line - 05.10.2021 - Senai                 //
+     //    Inicio da Programação através do JavaScript    //
+     //          Sistema de Cadastro de Peças             //
+     //        Aula On line - 05.10.2021 -                //
      // Instrutores: Thiago Nascimento && Ordilei Sabella //
      ///////////////////////////////////////////////////////
 
@@ -16,29 +16,21 @@
 //                                                                //
 ////////////////////////////////////////////////////////////////////
 
+let peso = 100
+//let peso = 80
 
-let peso = 100; // cria a variável "peso" e define o valor
+let ListaPecas = ["Disco de Freio", "Amortecedor", "Farol", "Chicote de Embreagem", "Pneus","Fusível"];
+//let ListaPecas = ["Disco de Freio", "Amortecedor", "Farol", "Chicote de Embreagem", "Pneus","Fusível", "Disco de Freio", "Amortecedor", "Farol", "Chicote de Embreagem", "Pneus","Fusível"];
 
+let NomePecas = "Disco de Freio";
+//let NomePecas = "Di";
 
-if (peso > 100) {     
-    console.log("A peça possui um peso adequado, pode ser cadastrada!")
+if (peso < 100) {
+    console.log("Peça com peso inválido!"); 
+} else if (ListaPecas.length > 10) {
+    console.log("Gravação não permitida, banco de dados sem espaço!"); 
+} else if (NomePecas.length <= 3) {
+    console.log("Nome inadequado, nome da peça deve ser superior a 03 Letras!"); 
 } else {
-    console.log("Peça não pode ser cadastrada")    
+    console.log("Peça com peso válido, Gravação Permitida e Nome da Peça válida!")
 }
-
-let ListaPecas = ["Disco de Freio", "Amortecedor","Virabequim","Vela", "Bateria", "Radiador", "Correia","Carter","Ignição", "Embreagem"]
-
-if (ListaPecas.length < 11) {
-    console.log ("A Lista possui espaço para mais peças")
-} else {
-    console.log("Não há espaço disponivel na lista")
-}
-
-let nomePecas = "Disco de Freio"
-
-if ( nomePecas.length > 3) {
-    console.log("Nome de peça válida, pode seguir com o cadastro");
-} else {
-    console.log("Nome de peça inválida, o nome deve ter mais de 3 caracteres")
-}
-
